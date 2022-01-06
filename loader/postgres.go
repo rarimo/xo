@@ -119,10 +119,15 @@ func PostgresGoType(d xo.Type, schema, itype, utype string) (string, string, err
 		if d.Nullable {
 			goType, zero = "*uint8", "nil"
 		}
-	case "any", "bit varying", "bytea", "interval", "json", "jsonb", "xml":
+	case "any", "bit varying", "bytea", "interval", "json", "xml":
 		// TODO: write custom type for interval marshaling
 		// TODO: marshalling for json types
 		goType, zero = "[]byte", "nil"
+	case "jsonb":
+		goType, zero = "xo.Jsonb", "xo.Jsonb{}"
+		if d.Nullable {
+			goType, zero = "xo.NullJsonb", "xo.NullJsonb{}"
+		}
 	case "hstore":
 		goType, zero = "hstore.Hstore", "nil"
 	case "uuid":

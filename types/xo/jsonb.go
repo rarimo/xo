@@ -25,7 +25,7 @@ func (nj *NullJsonb) Scan(rawValue interface{}) error {
 		return err
 	}
 
-	return json.Unmarshal(value, nj.Jsonb)
+	return json.Unmarshal(value, &nj.Jsonb)
 }
 
 // Value implements the driver Valuer interface.

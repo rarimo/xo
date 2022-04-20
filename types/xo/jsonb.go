@@ -20,12 +20,9 @@ func (nj *NullJsonb) Scan(rawValue interface{}) error {
 		return nil
 	}
 	nj.Valid = true
-	value, err := castToBytes(rawValue)
-	if err != nil {
-		return err
-	}
-
-	return json.Unmarshal(value, &nj.Jsonb)
+	var err error
+	nj.Jsonb, err = castToBytes(rawValue)
+	return err
 }
 
 // Value implements the driver Valuer interface.
@@ -42,12 +39,13 @@ func (nj *Jsonb) Scan(rawValue interface{}) error {
 		return errors.New("expected not null jsonb")
 	}
 
-	value, err := castToBytes(rawValue)
+	var err error
+	*nj, err = castToBytes(rawValue)
 	if err != nil {
 		return err
 	}
 
-	return json.Unmarshal(value, nj)
+	return nil
 }
 
 // Value implements the driver Valuer interface.

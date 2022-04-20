@@ -30,7 +30,7 @@ import (
 )
 
 // version is the app version.
-var version = "0.0.0-dev"
+var version = "dhaidashenko_fork-1.0.1"
 
 func main() {
 	ctx := context.WithValue(context.Background(), templates.SymbolsKey, internal.Symbols)

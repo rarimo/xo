@@ -50,6 +50,10 @@ func (nj *Jsonb) Scan(rawValue interface{}) error {
 
 // Value implements the driver Valuer interface.
 func (nj Jsonb) Value() (driver.Value, error) {
+	if len(nj) == 0 {
+		return nil, nil
+	}
+
 	return []byte(nj), nil
 }
 

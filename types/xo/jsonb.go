@@ -58,15 +58,14 @@ func (nj Jsonb) Value() (driver.Value, error) {
 }
 
 func castToBytes(src interface{}) ([]byte, error) {
-	var data []byte
 	switch rawData := src.(type) {
 	case []byte:
-		data = rawData
+		result := make([]byte, len(rawData))
+		copy(result, rawData)
+		return result, nil
 	case string:
-		data = []byte(rawData)
+		return []byte(rawData), nil
 	default:
 		return nil, errors.New("unexpected type for jsonb")
 	}
-
-	return data, nil
 }

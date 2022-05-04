@@ -1,24 +1,54 @@
 package xo
 
-import "testing"
+import (
+	"github.com/stretchr/testify/assert"
+	"testing"
+)
 
 // TODO: write proper tests
 func TestJSONB(t *testing.T) {
-	for _, rawData := range []string{`{"name": "Hello"}`, `["a", "b"]`, `"asd"`} {
-		var jsonB Jsonb
-		err := jsonB.Scan(rawData)
-		if err != nil {
-			panic(err)
+	t.Run("Bytes slice can handle modification of original data", func(t *testing.T) {
+		inputs := [][]byte{[]byte(`{"name": "Hello"}`), []byte(`["a", "b"]`), []byte(`"asd"`)}
+		expectedOutputs := make([][]byte, len(inputs))
+		for i, input := range inputs {
+			expectedOutputs[i] = make([]byte, len(input))
+			copy(expectedOutputs[i], input)
 		}
 
-		println(string(jsonB))
+		jsonBs := make([]Jsonb, len(inputs))
+		for i, input := range inputs {
+			err := jsonBs[i].Scan(input)
+			if err != nil {
+				panic(err)
+			}
 
-		var nullJsonB NullJsonb
-		err = nullJsonB.Scan(rawData)
-		if err != nil {
-			panic(err)
+			input[0] = 12 // modify original slice in some way
 		}
 
-		println(string(nullJsonB.Jsonb))
-	}
+		for i, jsonB := range jsonBs {
+			assert.Equal(t, string(expectedOutputs[i]), string(jsonB))
+		}
+	})
+	t.Run("Bytes slice can handle modification of original data for NullJsonB", func(t *testing.T) {
+		inputs := [][]byte{[]byte(`{"name": "Hello"}`), []byte(`["a", "b"]`), []byte(`"asd"`)}
+		expectedOutputs := make([][]byte, len(inputs))
+		for i, input := range inputs {
+			expectedOutputs[i] = make([]byte, len(input))
+			copy(expectedOutputs[i], input)
+		}
+
+		jsonBs := make([]NullJsonb, len(inputs))
+		for i, input := range inputs {
+			err := jsonBs[i].Scan(input)
+			if err != nil {
+				panic(err)
+			}
+
+			input[0] = 12 // modify original slice in some way
+		}
+
+		for i, jsonB := range jsonBs {
+			assert.Equal(t, string(expectedOutputs[i]), string(jsonB.Jsonb))
+		}
+	})
 }

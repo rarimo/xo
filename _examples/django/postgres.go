@@ -7,7 +7,7 @@ import (
 	"os"
 	"time"
 
-	models "gitlab.com/rarify-protocol/_examples/django/postgres"
+	models "gitlab.com/rarify-protocol/xo/_examples/django/postgres"
 )
 
 func runPostgres(ctx context.Context, db *sql.DB) error {

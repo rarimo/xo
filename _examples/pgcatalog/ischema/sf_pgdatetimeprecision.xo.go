@@ -5,7 +5,7 @@ package ischema
 import (
 	"context"
 
-	"gitlab.com/rarify-protocol/_examples/pgcatalog/pgtypes"
+	"gitlab.com/rarify-protocol/xo/_examples/pgcatalog/pgtypes"
 )
 
 // PgDatetimePrecision calls the stored function 'information_schema._pg_datetime_precision(oid, integer) integer' on db.

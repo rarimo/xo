@@ -20,11 +20,11 @@ import (
 	//_ "github.com/sijms/go-ora/v2"
 
 	// models
-	"gitlab.com/rarify-protocol/_examples/django/mysql"
-	"gitlab.com/rarify-protocol/_examples/django/oracle"
-	"gitlab.com/rarify-protocol/_examples/django/postgres"
-	"gitlab.com/rarify-protocol/_examples/django/sqlite3"
-	"gitlab.com/rarify-protocol/_examples/django/sqlserver"
+	"gitlab.com/rarify-protocol/xo/_examples/django/mysql"
+	"gitlab.com/rarify-protocol/xo/_examples/django/oracle"
+	"gitlab.com/rarify-protocol/xo/_examples/django/postgres"
+	"gitlab.com/rarify-protocol/xo/_examples/django/sqlite3"
+	"gitlab.com/rarify-protocol/xo/_examples/django/sqlserver"
 
 	"github.com/xo/dburl"
 	"github.com/xo/dburl/passfile"

@@ -5,7 +5,7 @@ import (
 	"database/sql"
 	"fmt"
 
-	models "gitlab.com/rarify-protocol/_examples/northwind/oracle"
+	models "gitlab.com/rarify-protocol/xo/_examples/northwind/oracle"
 )
 
 func runOracle(ctx context.Context, db *sql.DB) error {

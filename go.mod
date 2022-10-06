@@ -1,4 +1,4 @@
-module gitlab.com/rarify-protocol
+module gitlab.com/rarify-protocol/xo
 
 go 1.17
 

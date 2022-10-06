@@ -2,7 +2,7 @@
 /xo.exe
 /build/
 /x/
-
+.idea
 *.txt
 *.db
 *.dot

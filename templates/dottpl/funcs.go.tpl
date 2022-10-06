@@ -9,8 +9,8 @@ import (
 	"text/template"
 
 	"github.com/kenshaw/snaker"
-	"github.com/xo/xo/templates/dottpl"
-	xo "github.com/xo/xo/types"
+	"gitlab.com/rarify-protocol/templates/dottpl"
+	xo "gitlab.com/rarify-protocol/types"
 )
 
 // Init intializes the custom template funcs.

@@ -18,15 +18,15 @@ import (
 	_ "github.com/sijms/go-ora/v2"
 
 	// templates
-	_ "github.com/xo/xo/templates/createdbtpl"
-	_ "github.com/xo/xo/templates/dottpl"
-	_ "github.com/xo/xo/templates/gotpl"
-	_ "github.com/xo/xo/templates/jsontpl"
-	_ "github.com/xo/xo/templates/yamltpl"
+	_ "gitlab.com/rarify-protocol/templates/createdbtpl"
+	_ "gitlab.com/rarify-protocol/templates/dottpl"
+	_ "gitlab.com/rarify-protocol/templates/gotpl"
+	_ "gitlab.com/rarify-protocol/templates/jsontpl"
+	_ "gitlab.com/rarify-protocol/templates/yamltpl"
 
-	"github.com/xo/xo/cmd"
-	"github.com/xo/xo/internal"
-	"github.com/xo/xo/templates"
+	"gitlab.com/rarify-protocol/cmd"
+	"gitlab.com/rarify-protocol/internal"
+	"gitlab.com/rarify-protocol/templates"
 )
 
 // version is the app version.

@@ -11,9 +11,9 @@ import (
 	"text/template"
 
 	"github.com/kenshaw/snaker"
-	"github.com/xo/xo/loader"
-	"github.com/xo/xo/templates/gotpl"
-	xo "github.com/xo/xo/types"
+	"gitlab.com/rarify-protocol/loader"
+	"gitlab.com/rarify-protocol/templates/gotpl"
+	xo "gitlab.com/rarify-protocol/types"
 )
 
 // Init intializes the custom template funcs.

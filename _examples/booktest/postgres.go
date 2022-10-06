@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"time"
 
-	models "github.com/xo/xo/_examples/booktest/postgres"
+	models "gitlab.com/rarify-protocol/_examples/booktest/postgres"
 )
 
 func runPostgres(ctx context.Context, db *sql.DB) error {

@@ -15,11 +15,11 @@ import (
 	"github.com/gobwas/glob"
 	"github.com/xo/dburl"
 	"github.com/xo/dburl/passfile"
-	"github.com/xo/xo/loader"
-	"github.com/xo/xo/models"
-	"github.com/xo/xo/templates"
-	xo "github.com/xo/xo/types"
 	"github.com/yookoala/realpath"
+	"gitlab.com/rarify-protocol/loader"
+	"gitlab.com/rarify-protocol/models"
+	"gitlab.com/rarify-protocol/templates"
+	xo "gitlab.com/rarify-protocol/types"
 )
 
 // Run runs the code generation.

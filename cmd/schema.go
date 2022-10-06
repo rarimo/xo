@@ -10,9 +10,9 @@ import (
 	"strings"
 
 	"github.com/kenshaw/inflector"
-	"github.com/xo/xo/loader"
-	"github.com/xo/xo/models"
-	xo "github.com/xo/xo/types"
+	"gitlab.com/rarify-protocol/loader"
+	"gitlab.com/rarify-protocol/models"
+	xo "gitlab.com/rarify-protocol/types"
 )
 
 // BuildSchema builds a schema.

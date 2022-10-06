@@ -8,8 +8,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/xo/xo/templates/createdbtpl"
-	xo "github.com/xo/xo/types"
+	"gitlab.com/rarify-protocol/templates/createdbtpl"
+	xo "gitlab.com/rarify-protocol/types"
 )
 
 // Init intializes the custom template funcs.

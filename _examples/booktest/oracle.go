@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"time"
 
-	models "github.com/xo/xo/_examples/booktest/oracle"
+	models "gitlab.com/rarify-protocol/_examples/booktest/oracle"
 )
 
 func runOracle(ctx context.Context, db *sql.DB) error {

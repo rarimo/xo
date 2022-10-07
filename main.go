@@ -18,19 +18,19 @@ import (
 	_ "github.com/sijms/go-ora/v2"
 
 	// templates
-	_ "gitlab.com/rarify-protocol/templates/createdbtpl"
-	_ "gitlab.com/rarify-protocol/templates/dottpl"
-	_ "gitlab.com/rarify-protocol/templates/gotpl"
-	_ "gitlab.com/rarify-protocol/templates/jsontpl"
-	_ "gitlab.com/rarify-protocol/templates/yamltpl"
+	_ "gitlab.com/rarify-protocol/xo/templates/createdbtpl"
+	_ "gitlab.com/rarify-protocol/xo/templates/dottpl"
+	_ "gitlab.com/rarify-protocol/xo/templates/gotpl"
+	_ "gitlab.com/rarify-protocol/xo/templates/jsontpl"
+	_ "gitlab.com/rarify-protocol/xo/templates/yamltpl"
 
-	"gitlab.com/rarify-protocol/cmd"
-	"gitlab.com/rarify-protocol/internal"
-	"gitlab.com/rarify-protocol/templates"
+	"gitlab.com/rarify-protocol/xo/cmd"
+	"gitlab.com/rarify-protocol/xo/internal"
+	"gitlab.com/rarify-protocol/xo/templates"
 )
 
 // version is the app version.
-var version = "0.0.0-dev"
+var version = "dhaidashenko_fork-1.0.1"
 
 func main() {
 	ctx := context.WithValue(context.Background(), templates.SymbolsKey, internal.Symbols)

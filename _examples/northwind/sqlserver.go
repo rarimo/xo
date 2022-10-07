@@ -5,7 +5,7 @@ import (
 	"database/sql"
 	"fmt"
 
-	models "gitlab.com/rarify-protocol/_examples/northwind/sqlserver"
+	models "gitlab.com/rarify-protocol/xo/_examples/northwind/sqlserver"
 )
 
 func runSqlserver(ctx context.Context, db *sql.DB) error {

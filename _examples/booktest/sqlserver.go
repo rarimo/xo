@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"time"
 
-	models "gitlab.com/rarify-protocol/_examples/booktest/sqlserver"
+	models "gitlab.com/rarify-protocol/xo/_examples/booktest/sqlserver"
 )
 
 func runSqlserver(ctx context.Context, db *sql.DB) error {

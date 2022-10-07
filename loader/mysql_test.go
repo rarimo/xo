@@ -3,7 +3,7 @@ package loader
 import (
 	"testing"
 
-	xo "gitlab.com/rarify-protocol/types"
+	xo "gitlab.com/rarify-protocol/xo/types"
 )
 
 func TestMysqlGoType(t *testing.T) {

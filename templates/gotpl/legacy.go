@@ -7,7 +7,7 @@ import (
 	"text/template"
 
 	"github.com/kenshaw/snaker"
-	"gitlab.com/rarify-protocol/loader"
+	"gitlab.com/rarify-protocol/xo/loader"
 )
 
 // addLegacyFuncs adds the legacy template funcs.

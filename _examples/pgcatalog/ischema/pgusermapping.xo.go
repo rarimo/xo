@@ -5,7 +5,7 @@ package ischema
 import (
 	"database/sql"
 
-	"gitlab.com/rarify-protocol/_examples/pgcatalog/pgtypes"
+	"gitlab.com/rarify-protocol/xo/_examples/pgcatalog/pgtypes"
 )
 
 // PgUserMapping represents a row from 'information_schema._pg_user_mappings'.

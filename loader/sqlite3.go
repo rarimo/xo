@@ -1,8 +1,8 @@
 package loader
 
 import (
-	"gitlab.com/rarify-protocol/models"
-	xo "gitlab.com/rarify-protocol/types"
+	"gitlab.com/rarify-protocol/xo/models"
+	xo "gitlab.com/rarify-protocol/xo/types"
 )
 
 func init() {

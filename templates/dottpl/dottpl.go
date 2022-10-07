@@ -5,8 +5,8 @@ import (
 	"embed"
 	"errors"
 
-	"gitlab.com/rarify-protocol/templates"
-	xo "gitlab.com/rarify-protocol/types"
+	"gitlab.com/rarify-protocol/xo/templates"
+	xo "gitlab.com/rarify-protocol/xo/types"
 )
 
 func init() {

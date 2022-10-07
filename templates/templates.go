@@ -18,7 +18,7 @@ import (
 	"github.com/Masterminds/sprig/v3"
 	"github.com/traefik/yaegi/interp"
 	"github.com/traefik/yaegi/stdlib"
-	xo "gitlab.com/rarify-protocol/types"
+	xo "gitlab.com/rarify-protocol/xo/types"
 )
 
 // templates are registered template sets.

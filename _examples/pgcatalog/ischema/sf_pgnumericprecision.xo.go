@@ -5,7 +5,7 @@ package ischema
 import (
 	"context"
 
-	"gitlab.com/rarify-protocol/_examples/pgcatalog/pgtypes"
+	"gitlab.com/rarify-protocol/xo/_examples/pgcatalog/pgtypes"
 )
 
 // PgNumericPrecision calls the stored function 'information_schema._pg_numeric_precision(oid, integer) integer' on db.

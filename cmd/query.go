@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"gitlab.com/rarify-protocol/loader"
-	xo "gitlab.com/rarify-protocol/types"
+	"gitlab.com/rarify-protocol/xo/loader"
+	xo "gitlab.com/rarify-protocol/xo/types"
 )
 
 // BuildQuery builds a query.

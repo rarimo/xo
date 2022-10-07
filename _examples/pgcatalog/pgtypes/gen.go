@@ -18,7 +18,7 @@ import (
 
 	"github.com/kenshaw/snaker"
 	"github.com/xo/dburl/passfile"
-	"gitlab.com/rarify-protocol/_examples/pgcatalog/pgtypes"
+	"gitlab.com/rarify-protocol/xo/_examples/pgcatalog/pgtypes"
 	"mvdan.cc/gofumpt/format"
 )
 

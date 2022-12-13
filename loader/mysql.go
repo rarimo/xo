@@ -5,8 +5,8 @@ import (
 	"regexp"
 	"strings"
 
-	"gitlab.com/rarify-protocol/xo/models"
-	xo "gitlab.com/rarify-protocol/xo/types"
+	"gitlab.com/rarimo/xo/models"
+	xo "gitlab.com/rarimo/xo/types"
 )
 
 func init() {

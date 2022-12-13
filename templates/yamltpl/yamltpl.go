@@ -4,8 +4,8 @@ import (
 	"context"
 	"embed"
 
-	"gitlab.com/rarify-protocol/xo/templates"
-	xo "gitlab.com/rarify-protocol/xo/types"
+	"gitlab.com/rarimo/xo/templates"
+	xo "gitlab.com/rarimo/xo/types"
 )
 
 func init() {

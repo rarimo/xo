@@ -11,8 +11,8 @@ import (
 	"strings"
 
 	"github.com/kenshaw/snaker"
-	"gitlab.com/rarify-protocol/xo/models"
-	xo "gitlab.com/rarify-protocol/xo/types"
+	"gitlab.com/rarimo/xo/models"
+	xo "gitlab.com/rarimo/xo/types"
 )
 
 // loaders are registered database loaders.

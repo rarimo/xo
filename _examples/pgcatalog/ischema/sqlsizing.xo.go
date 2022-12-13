@@ -5,7 +5,7 @@ package ischema
 import (
 	"database/sql"
 
-	"gitlab.com/rarify-protocol/xo/_examples/pgcatalog/pgtypes"
+	"gitlab.com/rarimo/xo/_examples/pgcatalog/pgtypes"
 )
 
 // SQLSizing represents a row from 'information_schema.sql_sizing'.

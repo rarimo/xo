@@ -5,7 +5,7 @@ package ischema
 import (
 	"context"
 
-	"gitlab.com/rarify-protocol/xo/_examples/pgcatalog/pgtypes"
+	"gitlab.com/rarimo/xo/_examples/pgcatalog/pgtypes"
 )
 
 // PgNumericScale calls the stored function 'information_schema._pg_numeric_scale(oid, integer) integer' on db.

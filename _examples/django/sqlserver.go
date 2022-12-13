@@ -7,7 +7,7 @@ import (
 	"os"
 	"time"
 
-	models "gitlab.com/rarify-protocol/xo/_examples/django/sqlserver"
+	models "gitlab.com/rarimo/xo/_examples/django/sqlserver"
 )
 
 func runSqlserver(ctx context.Context, db *sql.DB) error {

@@ -1,4 +1,4 @@
-module gitlab.com/rarify-protocol/xo/_examples
+module gitlab.com/rarimo/xo/_examples
 
 go 1.17
 

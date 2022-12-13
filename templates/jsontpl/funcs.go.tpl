@@ -8,7 +8,7 @@ import (
 	"strings"
 	"text/template"
 
-	"gitlab.com/rarify-protocol/xo/templates/jsontpl"
+	"gitlab.com/rarimo/xo/templates/jsontpl"
 )
 
 // Init intializes the custom template funcs.

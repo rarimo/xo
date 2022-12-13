@@ -7,7 +7,7 @@ import (
 	"os"
 	"time"
 
-	models "gitlab.com/rarify-protocol/xo/_examples/django/sqlite3"
+	models "gitlab.com/rarimo/xo/_examples/django/sqlite3"
 )
 
 func runSqlite3(ctx context.Context, db *sql.DB) error {

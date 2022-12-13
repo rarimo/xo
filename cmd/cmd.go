@@ -16,10 +16,10 @@ import (
 	"github.com/xo/dburl"
 	"github.com/xo/dburl/passfile"
 	"github.com/yookoala/realpath"
-	"gitlab.com/rarify-protocol/xo/loader"
-	"gitlab.com/rarify-protocol/xo/models"
-	"gitlab.com/rarify-protocol/xo/templates"
-	xo "gitlab.com/rarify-protocol/xo/types"
+	"gitlab.com/rarimo/xo/loader"
+	"gitlab.com/rarimo/xo/models"
+	"gitlab.com/rarimo/xo/templates"
+	xo "gitlab.com/rarimo/xo/types"
 )
 
 // Run runs the code generation.

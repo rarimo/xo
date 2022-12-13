@@ -15,14 +15,14 @@ import (
 //
 // go list ./... |grep -v internal|tail -n +2|sed -e 's%^%//go:generate yaegi extract %'
 //
-//go:generate yaegi extract gitlab.com/rarify-protocol/xo/cmd
-//go:generate yaegi extract gitlab.com/rarify-protocol/xo/loader
-//go:generate yaegi extract gitlab.com/rarify-protocol/xo/models
-//go:generate yaegi extract gitlab.com/rarify-protocol/xo/templates
-//go:generate yaegi extract gitlab.com/rarify-protocol/xo/templates/createdbtpl
-//go:generate yaegi extract gitlab.com/rarify-protocol/xo/templates/dottpl
-//go:generate yaegi extract gitlab.com/rarify-protocol/xo/templates/gotpl
-//go:generate yaegi extract gitlab.com/rarify-protocol/xo/templates/jsontpl
-//go:generate yaegi extract gitlab.com/rarify-protocol/xo/templates/yamltpl
-//go:generate yaegi extract gitlab.com/rarify-protocol/xo/types
+//go:generate yaegi extract gitlab.com/rarimo/xo/cmd
+//go:generate yaegi extract gitlab.com/rarimo/xo/loader
+//go:generate yaegi extract gitlab.com/rarimo/xo/models
+//go:generate yaegi extract gitlab.com/rarimo/xo/templates
+//go:generate yaegi extract gitlab.com/rarimo/xo/templates/createdbtpl
+//go:generate yaegi extract gitlab.com/rarimo/xo/templates/dottpl
+//go:generate yaegi extract gitlab.com/rarimo/xo/templates/gotpl
+//go:generate yaegi extract gitlab.com/rarimo/xo/templates/jsontpl
+//go:generate yaegi extract gitlab.com/rarimo/xo/templates/yamltpl
+//go:generate yaegi extract gitlab.com/rarimo/xo/types
 var Symbols map[string]map[string]reflect.Value = make(map[string]map[string]reflect.Value)

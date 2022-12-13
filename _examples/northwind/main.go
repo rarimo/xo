@@ -23,11 +23,11 @@ import (
 	//_ "github.com/sijms/go-ora/v2"
 
 	// models
-	"gitlab.com/rarify-protocol/xo/_examples/northwind/mysql"
-	"gitlab.com/rarify-protocol/xo/_examples/northwind/oracle"
-	"gitlab.com/rarify-protocol/xo/_examples/northwind/postgres"
-	"gitlab.com/rarify-protocol/xo/_examples/northwind/sqlite3"
-	"gitlab.com/rarify-protocol/xo/_examples/northwind/sqlserver"
+	"gitlab.com/rarimo/xo/_examples/northwind/mysql"
+	"gitlab.com/rarimo/xo/_examples/northwind/oracle"
+	"gitlab.com/rarimo/xo/_examples/northwind/postgres"
+	"gitlab.com/rarimo/xo/_examples/northwind/sqlite3"
+	"gitlab.com/rarimo/xo/_examples/northwind/sqlserver"
 
 	"github.com/xo/dburl"
 	"github.com/xo/dburl/passfile"

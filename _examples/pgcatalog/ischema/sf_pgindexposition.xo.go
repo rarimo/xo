@@ -5,7 +5,7 @@ package ischema
 import (
 	"context"
 
-	"gitlab.com/rarify-protocol/xo/_examples/pgcatalog/pgtypes"
+	"gitlab.com/rarimo/xo/_examples/pgcatalog/pgtypes"
 )
 
 // PgIndexPosition calls the stored function 'information_schema._pg_index_position(oid, smallint) integer' on db.

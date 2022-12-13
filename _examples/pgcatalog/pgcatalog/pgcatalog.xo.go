@@ -14,7 +14,7 @@ import (
 	"strings"
 	"time"
 
-	"gitlab.com/rarify-protocol/xo/_examples/pgcatalog/pgtypes"
+	"gitlab.com/rarimo/xo/_examples/pgcatalog/pgtypes"
 
 	"github.com/google/uuid"
 )

@@ -7,7 +7,7 @@ import (
 	"text/template"
 
 	"github.com/kenshaw/snaker"
-	"gitlab.com/rarimo/xo/loader"
+	"github.com/rarimo/xo/loader"
 )
 
 // addLegacyFuncs adds the legacy template funcs.

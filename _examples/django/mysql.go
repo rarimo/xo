@@ -7,7 +7,7 @@ import (
 	"os"
 	"time"
 
-	models "gitlab.com/rarimo/xo/_examples/django/mysql"
+	models "github.com/rarimo/xo/_examples/django/mysql"
 )
 
 func runMysql(ctx context.Context, db *sql.DB) error {

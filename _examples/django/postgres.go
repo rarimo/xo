@@ -7,7 +7,7 @@ import (
 	"os"
 	"time"
 
-	models "gitlab.com/rarimo/xo/_examples/django/postgres"
+	models "github.com/rarimo/xo/_examples/django/postgres"
 )
 
 func runPostgres(ctx context.Context, db *sql.DB) error {

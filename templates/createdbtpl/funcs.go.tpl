@@ -8,8 +8,8 @@ import (
 	"strings"
 	"text/template"
 
-	"gitlab.com/rarimo/xo/templates/createdbtpl"
-	xo "gitlab.com/rarimo/xo/types"
+	"github.com/rarimo/xo/templates/createdbtpl"
+	xo "github.com/rarimo/xo/types"
 )
 
 // Init intializes the custom template funcs.

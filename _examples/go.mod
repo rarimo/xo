@@ -1,4 +1,4 @@
-module gitlab.com/rarimo/xo/_examples
+module github.com/rarimo/xo/_examples
 
 go 1.17
 

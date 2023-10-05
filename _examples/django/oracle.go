@@ -7,7 +7,7 @@ import (
 	"os"
 	"time"
 
-	models "gitlab.com/rarimo/xo/_examples/django/oracle"
+	models "github.com/rarimo/xo/_examples/django/oracle"
 )
 
 func runOracle(ctx context.Context, db *sql.DB) error {

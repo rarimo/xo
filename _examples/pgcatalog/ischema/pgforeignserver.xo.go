@@ -5,7 +5,7 @@ package ischema
 import (
 	"database/sql"
 
-	"gitlab.com/rarimo/xo/_examples/pgcatalog/pgtypes"
+	"github.com/rarimo/xo/_examples/pgcatalog/pgtypes"
 )
 
 // PgForeignServer represents a row from 'information_schema._pg_foreign_servers'.

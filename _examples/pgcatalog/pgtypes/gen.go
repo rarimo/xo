@@ -17,8 +17,8 @@ import (
 	_ "github.com/lib/pq"
 
 	"github.com/kenshaw/snaker"
+	"github.com/rarimo/xo/_examples/pgcatalog/pgtypes"
 	"github.com/xo/dburl/passfile"
-	"gitlab.com/rarimo/xo/_examples/pgcatalog/pgtypes"
 	"mvdan.cc/gofumpt/format"
 )
 

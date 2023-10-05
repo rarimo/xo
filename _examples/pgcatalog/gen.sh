@@ -31,7 +31,7 @@ rm -f pgcatalog/*.xo.go ischema/*.xo.go
 FLAGS=(
   --postgres-oids
   --go-custom=pgtypes
-  --go-import gitlab.com/rarimo/xo/_examples/pgcatalog/pgtypes
+  --go-import github.com/rarimo/xo/_examples/pgcatalog/pgtypes
   --go-uuid github.com/google/uuid
 )
 (set -ex;

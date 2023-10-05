@@ -20,11 +20,11 @@ import (
 	//_ "github.com/sijms/go-ora/v2"
 
 	// models
-	"gitlab.com/rarimo/xo/_examples/booktest/mysql"
-	"gitlab.com/rarimo/xo/_examples/booktest/oracle"
-	"gitlab.com/rarimo/xo/_examples/booktest/postgres"
-	"gitlab.com/rarimo/xo/_examples/booktest/sqlite3"
-	"gitlab.com/rarimo/xo/_examples/booktest/sqlserver"
+	"github.com/rarimo/xo/_examples/booktest/mysql"
+	"github.com/rarimo/xo/_examples/booktest/oracle"
+	"github.com/rarimo/xo/_examples/booktest/postgres"
+	"github.com/rarimo/xo/_examples/booktest/sqlite3"
+	"github.com/rarimo/xo/_examples/booktest/sqlserver"
 
 	"github.com/xo/dburl"
 	"github.com/xo/dburl/passfile"

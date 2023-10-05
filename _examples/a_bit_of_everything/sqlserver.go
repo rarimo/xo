@@ -5,7 +5,7 @@ import (
 	"database/sql"
 	"fmt"
 
-	models "gitlab.com/rarimo/xo/_examples/a_bit_of_everything/sqlserver"
+	models "github.com/rarimo/xo/_examples/a_bit_of_everything/sqlserver"
 )
 
 func runSqlserver(ctx context.Context, db *sql.DB) error {

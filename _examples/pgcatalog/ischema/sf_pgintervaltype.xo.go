@@ -5,7 +5,7 @@ package ischema
 import (
 	"context"
 
-	"gitlab.com/rarimo/xo/_examples/pgcatalog/pgtypes"
+	"github.com/rarimo/xo/_examples/pgcatalog/pgtypes"
 )
 
 // PgIntervalType calls the stored function 'information_schema._pg_interval_type(oid, integer) text' on db.

@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"time"
 
-	models "gitlab.com/rarimo/xo/_examples/booktest/sqlserver"
+	models "github.com/rarimo/xo/_examples/booktest/sqlserver"
 )
 
 func runSqlserver(ctx context.Context, db *sql.DB) error {

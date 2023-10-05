@@ -11,9 +11,9 @@ import (
 
 	"github.com/kenshaw/inflector"
 	"github.com/kenshaw/snaker"
-	"gitlab.com/rarimo/xo/loader"
-	"gitlab.com/rarimo/xo/templates"
-	xo "gitlab.com/rarimo/xo/types"
+	"github.com/rarimo/xo/loader"
+	"github.com/rarimo/xo/templates"
+	xo "github.com/rarimo/xo/types"
 	"golang.org/x/tools/imports"
 	"mvdan.cc/gofumpt/format"
 )

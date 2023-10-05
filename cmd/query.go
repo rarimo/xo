@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"gitlab.com/rarimo/xo/loader"
-	xo "gitlab.com/rarimo/xo/types"
+	"github.com/rarimo/xo/loader"
+	xo "github.com/rarimo/xo/types"
 )
 
 // BuildQuery builds a query.

@@ -16,9 +16,9 @@ import (
 	"text/template"
 
 	sprig "github.com/Masterminds/sprig/v3"
+	xo "github.com/rarimo/xo/types"
 	"github.com/traefik/yaegi/interp"
 	"github.com/traefik/yaegi/stdlib"
-	xo "gitlab.com/rarimo/xo/types"
 )
 
 // templates are registered template sets.

@@ -13,13 +13,13 @@ import (
 
 	"github.com/alecthomas/kingpin"
 	"github.com/gobwas/glob"
+	"github.com/rarimo/xo/loader"
+	"github.com/rarimo/xo/models"
+	"github.com/rarimo/xo/templates"
+	xo "github.com/rarimo/xo/types"
 	"github.com/xo/dburl"
 	"github.com/xo/dburl/passfile"
 	"github.com/yookoala/realpath"
-	"gitlab.com/rarimo/xo/loader"
-	"gitlab.com/rarimo/xo/models"
-	"gitlab.com/rarimo/xo/templates"
-	xo "gitlab.com/rarimo/xo/types"
 )
 
 // Run runs the code generation.

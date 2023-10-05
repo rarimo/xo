@@ -1,4 +1,4 @@
-module gitlab.com/rarimo/xo
+module github.com/rarimo/xo
 
 go 1.17
 

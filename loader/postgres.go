@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"strings"
 
-	"gitlab.com/rarimo/xo/models"
-	xo "gitlab.com/rarimo/xo/types"
+	"github.com/rarimo/xo/models"
+	xo "github.com/rarimo/xo/types"
 )
 
 func init() {

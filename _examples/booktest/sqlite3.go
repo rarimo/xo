@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"time"
 
-	models "gitlab.com/rarimo/xo/_examples/booktest/sqlite3"
+	models "github.com/rarimo/xo/_examples/booktest/sqlite3"
 )
 
 func runSqlite3(ctx context.Context, db *sql.DB) error {

@@ -5,7 +5,7 @@ package ischema
 import (
 	"database/sql"
 
-	"gitlab.com/rarimo/xo/_examples/pgcatalog/pgtypes"
+	"github.com/rarimo/xo/_examples/pgcatalog/pgtypes"
 )
 
 // SQLImplementationInfo represents a row from 'information_schema.sql_implementation_info'.
